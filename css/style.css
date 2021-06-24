@@ -15,12 +15,17 @@
     display: inline-block;
     width: calc(100% / 3);
     padding: 3px;
+    position: relative;
     /* background-color: aqua;
     border: 1px solid black */
 }
 
 .product-img {
     width: 100%;
+}
+
+.product-img-under {
+    position: absolute;
 }
 
 .bold {
@@ -33,4 +38,16 @@
 
 .line-through {
    text-decoration: line-through; 
+}
+
+.txt-box {
+    padding-top: 10px;
+}
+
+.heart {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background-color: white;
+    padding: 1px 7px 5px;
 }
