@@ -22,3 +22,15 @@
 .product-img {
     width: 100%;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.red-txt {
+    color: red;
+}
+
+.line-through {
+   text-decoration: line-through; 
+}
