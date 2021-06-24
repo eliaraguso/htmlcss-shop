@@ -13,8 +13,9 @@
 
 .product {
     display: inline-block;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 10px);
     padding: 3px;
+    margin: 5px;
     position: relative;
     /* background-color: aqua;
     border: 1px solid black */
