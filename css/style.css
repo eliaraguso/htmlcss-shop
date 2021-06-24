@@ -13,12 +13,9 @@
 
 .product {
     display: inline-block;
-    width: calc((100% / 3) - 10px);
+    width: calc(100% / 3);
     padding: 3px;
-    margin: 5px;
     position: relative;
-    /* background-color: aqua;
-    border: 1px solid black */
 }
 
 .product-img {
@@ -27,6 +24,8 @@
 
 .product-img-under {
     position: absolute;
+    display: none;
+    width: 100%;
 }
 
 .bold {
@@ -51,4 +50,8 @@
     right: 0px;
     background-color: white;
     padding: 1px 7px 5px;
+}
+
+.product:hover .product-img-under {
+    display: block;
 }
