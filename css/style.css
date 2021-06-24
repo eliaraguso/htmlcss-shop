@@ -1,5 +1,24 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* common */
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.product {
+    display: inline-block;
+    width: calc(100% / 3);
+    padding: 3px;
+    /* background-color: aqua;
+    border: 1px solid black */
+}
+
+.product-img {
+    width: 100%;
 }
