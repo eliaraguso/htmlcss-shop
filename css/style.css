@@ -55,3 +55,29 @@
 .product:hover .product-img-under {
     display: block;
 }
+
+.sconto {
+    position: absolute;
+    bottom: 85px;
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+}
+
+.sostenibilita {
+    position: absolute;
+    bottom: 85px;
+    left: 55px;
+    padding: 2px 5px;
+    background-color: seagreen;
+    color: white;
+}
+
+.sostenibilita1 {
+    position: absolute;
+    bottom: 85px;
+    padding: 2px 5px;
+    background-color: seagreen;
+    color: white;
+}
+
